@@ -1,8 +1,8 @@
 ## TODO
 
 - do obfuscate
-
-
+-  nexe src/index.js -o testASD --build -t linux-x64 --python=$(which python3) --verbose
+- nexe src/index.js -o build/testASD --build -t linux-x64 --python=$(which python3) --verbose
 # Express API Starter
 
 
