@@ -4,7 +4,6 @@ const helmet = require('helmet');
 const cors = require('cors');
 const limiter = require('./rateLimiterRedis');
 
-
 require('dotenv').config();
 
 const middlewares = require('./middlewares');
