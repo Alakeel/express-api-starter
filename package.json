@@ -8,7 +8,8 @@
     "dev": "nodemon --delay 500ms src/index.js",
     "prod": "NODE_ENV=production  nodemon src/index.js",
     "lint": "eslint --fix src",
-    "test": "jest"
+    "test": "jest",
+    "buildExe": "nexe --build --python=$(which python3)"
   },
   "keywords": [],
   "author": "CJ R. <cj@null.computer> (https://w3cj.now.sh)",
